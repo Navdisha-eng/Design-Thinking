@@ -37,11 +37,39 @@ body {
     margin-bottom: 2px;
 }
 
-.body {
-    margin-left: 200px;
-    margin-right: 200px;
+.hero-section {
+    background-image: url("../assets/brisbane-background.jpg");
+    background-size: cover;
+    height: 600px;
+    justify-content: center !important;
+    margin-bottom: 200px;
 }
 
-.test {
-    text-align: right;
+.hero-content {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 180px;
+    color: white;
+}
+
+#hero-button {
+    padding: 15px 30px;
+    background-color: olive;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#hero-button:hover {
+    background-color: white;
+    color: olive;
+    transition-duration: 0.4s;
+}
+
+.body {
+    margin-left: 180px;
+    margin-right: 180px;
 }
