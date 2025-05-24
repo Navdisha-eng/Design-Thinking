@@ -6,13 +6,17 @@ body {
     font-family: 'Plus Jakarta Sans';
 }
 
-/* NAVIGATION BAR */
+/* NAVIGATION BAR & FOOTER */
 .nav, .footer {
     align-items: center;
     background-color: green;
     display: flex;
     padding-left: 120px;
-    
+    color: white;
+}
+
+.footer a {
+    color: white;
 }
 
 .nav-links {
@@ -58,7 +62,7 @@ body {
     color: white;
 }
 
-#hero-button {
+#hero-button, #get-started-button {
     padding: 15px 30px;
     background-color: olive;
     border: none;
@@ -69,7 +73,7 @@ body {
     text-decoration: none;
 }
 
-#hero-button:hover {
+#hero-button:hover, #get-started-button:hover {
     background-color: white;
     color: olive;
     transition-duration: 0.4s;
@@ -155,6 +159,48 @@ body {
 .introduction .paragraph-text h3 {
     font-size: 24px;
 }
+
+#get-started-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* LINK SECTION */
+.link-sections {
+    padding-left: 16rem;
+    padding-right: 16rem;
+}
+
+.link-section a {
+    display: flex;
+    margin: 3rem 10rem;
+    background-color: #e0f2f1;
+    border-radius: 10px;
+    padding: 3rem;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 700;
+    color: black;
+    transition: transform 0.4s smooth;
+}
+
+.link-section:hover {
+    transform: scale(1.02);
+}
+
+.odd-link, .even-link {
+    width: 30rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+}
+
+.link-section a img {
+    width: 150px;
+}
+
 /* UNIVERSAL FORMATTING */
 .paragraph-text p {
     font-family: 'Plus Jakarta Sans';
@@ -165,3 +211,4 @@ body {
 img {
     border-radius: 12px;
 }
+
