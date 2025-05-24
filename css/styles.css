@@ -6,11 +6,13 @@ body {
     font-family: 'Plus Jakarta Sans';
 }
 
-.nav {
+/* NAVIGATION BAR */
+.nav, .footer {
     align-items: center;
     background-color: green;
     display: flex;
     padding-left: 120px;
+    
 }
 
 .nav-links {
@@ -39,6 +41,8 @@ body {
     margin-top: 5px;
     margin-bottom: 2px;
 }
+
+/* HERO SECTION */
 
 .hero-section {
     background-image: url("../assets/brisbane-background.jpg");
@@ -125,4 +129,39 @@ body {
 
 .flash-card:hover .back {
   transform: rotateY(360deg);
+}
+
+/* DID YOU KNOW */
+.did-you-know {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #e3fcec;
+    color: #2e7d32;
+    border-top: 4px solid #66bb6a;
+    border-bottom: 4px solid #66bb6a;
+}
+
+/* INTRODUCTION */
+.introduction {
+    background-color: #e0f2f1;
+    display: flex;
+    padding: 1rem 16rem;
+}
+
+.introduction .paragraph-text {
+    padding-left: 2rem;
+}
+
+.introduction .paragraph-text h3 {
+    font-size: 24px;
+}
+/* UNIVERSAL FORMATTING */
+.paragraph-text p {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    text-align: justify;
+}
+
+img {
+    border-radius: 12px;
 }
