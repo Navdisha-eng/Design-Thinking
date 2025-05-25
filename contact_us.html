@@ -5,6 +5,9 @@
     <title>Home | Climate Change Brisbane</title>
     
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Special stylesheet to affix only this page.-->
+    <link rel="stylesheet" href="css/styles_contact_us.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
@@ -23,7 +26,37 @@
         </div>
     </div>
     <div class="body">
-        <p>Body Content Here</p>
+        <div>
+            <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
+                <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Brisbane+City+Hall&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </div>
+        <div id="contact-box">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <div class="contact-row">
+                    <!-- physical address -->
+                    <span class="contact-icon">&#x1F4CD;</span>
+                    <span class="contact-detail">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Brisbane+City+Hall">
+                            Brisbane City Council <br>
+                            GPO Box 1434 <br>
+                            Brisbane QLD 4001
+                        </a>
+                    </span>
+                </div>
+                <div class="contact-row">
+                    <!-- phone contact -->
+                    <span class="contact-icon">&#x1F4DE;</span>
+                    <span class="contact-detail"><a href="tel:+61734038888">(07) 3403 8888</a></span>
+                </div>
+                <div class="contact-row">
+                    <!-- email address -->
+                    <span class="contact-icon">&#x1F4E7;</span>
+                    <span class="contact-detail"><a href="mailto:sustainability@brisbane.qld.gov.au">sustainability@brisbane.qld.gov.au</a></span>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

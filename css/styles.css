@@ -212,3 +212,54 @@ img {
     border-radius: 12px;
 }
 
+/* GOOGLE MAPS FRAME */
+#display-google-map {
+    height: 93vh !important;
+}
+
+#display-google-map img {
+    max-height:none;
+    max-width:none !important;
+    background:none !important;
+}
+
+#display-google-map iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+/* CONTACT BOX */
+#contact-box {
+    position: absolute;
+    top: 9%;
+    bottom: 2%;
+    right: 2%;
+    width: 35%;
+    z-index: 2;
+    
+    border-radius: 24px;
+    background-color: #e0f2f1;
+    border: 4px solid #66bb6a;
+
+    box-shadow: 0 3px 10px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.contact-row {
+    display: flex;
+    align-items: flex-starts;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 32px;
+}
