@@ -79,6 +79,25 @@ body {
     transition-duration: 0.4s;
 }
 
+/* ACKNOWLEDGEMENT OF COUNTRY */
+.acknowledgement-to-country {
+    background-image: url("../assets/acknowledgment-background.png");
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.acknowledgement-to-country p {
+    padding-left: 16rem;
+    width: 400px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+}
+
 /* FLASH CARDS */
 /* Styling assistance from Gen-AI */
 .flash-cards-section {
@@ -232,8 +251,8 @@ img {
 /* CONTACT BOX */
 #contact-box {
     position: absolute;
-    top: 9%;
-    bottom: 2%;
+    top: 20%;
+    bottom: 16%;
     right: 2%;
     width: 35%;
     z-index: 2;
@@ -249,17 +268,35 @@ img {
     justify-content: center;
 }
 
+.contact-content {
+    padding: 5rem;
+}
+
+.contact-content p {
+    font-style: italic;
+}
+
 .contact-content h2 {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 800; 
 }
 
 .contact-row {
     display: flex;
     align-items: flex-starts;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contact-icon {
     font-size: 32px;
+    margin-right: 20px;
 }
+
+.contact-detail a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
