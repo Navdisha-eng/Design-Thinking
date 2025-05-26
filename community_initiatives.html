@@ -5,9 +5,90 @@
     <title>Home | Climate Change Brisbane</title>
     
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_slideshow.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
+
+<!-- THIS SUMMARY STRUCTURE IDEA HAS BEEN CREATED BY GENERATIVE AI -->
+<!--
+
+📢 HEADER
+└── 🏷️ Title: "Sustainability Incentives & Support Programs"
+    📌 Subtitle: "Explore government and community-backed initiatives that reward sustainable action."
+    🎨 VISUALS:
+
+📝 INTRO SECTION
+└── Brief summary paragraph (2–3 lines)
+    🔹 Overview of who it's for and what it offers
+    🎨 VISUALS:
+        - Flat icons or small illustrations: 🏠 🧑‍🏫 🏢 representing households, schools, and businesses
+        - A simple infographic (e.g. “3 Steps to Get Started”)
+
+🏢 SECTION 1: Business Incentives
+└── 🧩 Grid or card layout (2–3 columns)
+    ├── 📌 Program Card
+    │   📄 Program name + description
+    │   ✅ Eligibility
+    │   💵 Key benefit
+    │   🔗 Apply/Info button
+    🎨 VISUALS:
+        - Icon or small illustration (e.g., factory with a leaf, energy-efficient building)
+        - Mini bar graph or checkmarks showing environmental ROI
+        - Trust seals (e.g., “BCC Endorsed” or “Certified Green”)
+
+🏠 SECTION 2: Residential Incentives
+└── 🧩 Tiles or accordions
+    ├── 🏷️ Program card (e.g., “Solar Rebate”)
+    │   👥 Who it helps
+    │   💰 Typical benefit
+    │   🔗 [Apply Now]
+    └── 📊 Comparison Table
+        ┌────────────┬────────────┬─────────────┐
+        │ Program    │ Cost       │ Savings     │
+        ├────────────┼────────────┼─────────────┤
+        │ Solar      │ $$$        │ 💲💲💲        │
+        │ Insulation │ $$         │ 💲💲         │
+        └────────────┴────────────┴─────────────┘
+    🎨 VISUALS:
+        - Simple vector icons: sun panels, water tanks, insulation
+        - Horizontal bar or icon-based savings meter (💲–💲💲💲💲)
+
+🌟 SECTION 3: Success Stories
+└── 🧍🧍‍♀️ Horizontal scroll or stacked cards
+    ├── 📷 User photo or local stock image
+    ├── 🧑 Short story with name and program used
+    └── 📈 Impact metric (e.g., CO₂ saved, cost reduced)
+    🎨 VISUALS:
+        - Before/after image sliders (optional)
+        - Animated badges: “Awarded”, “Saved $X”, etc.
+
+📅 SECTION 4: Upcoming Deadlines
+└── 📋 Deadline List
+    ├── 🗓️ Program name
+    │   ⏳ Deadline
+    │   🔗 Apply link
+    🎨 VISUALS:
+        - Countdown icons or urgency badges (e.g., “3 days left!”)
+        - Calendar icon with date
+        - Subtle attention animations for items closing soon
+
+❓ SECTION 5: FAQ
+└── 🔽 Accordion-style dropdowns
+    🎨 VISUALS:
+        - Icons per category (e.g., 🔐 for eligibility, 🧾 for documentation)
+        - Tooltip or hover pop-ups for complex terms
+
+🚀 CALL TO ACTION (CTA)
+└── 📢 Banner-style closing
+    💬 "Ready to make a change?"
+    🔘 [Use the Incentive Finder Tool]
+    🎨 VISUALS:
+        - Large button with arrow icon
+        - Background: illustration of a family, business owner, and student all benefiting from sustainable action
+
+-->
+
 <body>
     <div class="nav">
         <div class="nav-logo">
@@ -20,18 +101,39 @@
             <a href="community_initiatives.html" class="active">Initiatives</a>
             <a href="sustainability_hub.html">Sustainability Hub</a>
             <a href="contact_us.html">Contact Us</a>
-        </div>
+        </div> 
     </div>
     <div class="body">
-        <p>Body Content Here</p>
-        <ul>
-            <li>Links to applications to programs/incentives.</li>
-            <li>Case studies showing benefits of the programs</li>
-            <li>Eligibility requirements for each incentive</li>
-            <li>Break up government/industry/individual</li>
-        </ul>
+        <script src="js/slideshow.js"></script>
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="assets/initiatives_slideshow/hero-initiatives-1.png">
+            </div>
+            <div class="slide">
+                <img src="assets/initiatives_slideshow/hero-initiatives-2.png">
+            </div>
+            <div class="slide">
+                <img src="assets/initiatives_slideshow/hero-initiatives-3.png">
+            </div>
+        </div>
+        <div class="divider"></div>
+        <h2>Find initiatives for</h2>
+        <div class="inline-buttons">
+            <a class="inline-button" href="#">
+                <span class="emoji">&#x1F46A;</span>
+                <span>Your Family</span>
+            </a>
+            <a class="inline-button" href="#">
+                <span class="emoji">&#x1F9AE;</span>
+                <span>Your Organisation</span>
+            </a>
+            <a class="inline-button" href="#">
+                <span class="emoji">&#x1F3ED;</span>
+                <span>Your Business</span>
+            </a>
+        </div>
     </div>
-        <div class="acknowledgement-to-country">
+    <div class="acknowledgement-to-country">
         <p>Brisbane City Council acknowledges this Country and its Traditional Custodians. We pay our respects to the Elders, those who have passed into the Dreaming; those here today; those of tomorrow. </p>    
     </div>
     <div class="footer">
