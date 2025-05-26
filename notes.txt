@@ -1,3 +1,4 @@
 ! -- TO DO LIST -- !
 ~ HIGH PRIORITY: Any images composed of RED backgrounds indicate a placeholder image. Change these?
+~ HIGH PRIORITY: Fix Scaling of Image & Text on Index.
 ~ LOW PRIORITY: Research how to have smoother transitions with the slideshow. 

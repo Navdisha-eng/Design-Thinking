@@ -8,12 +8,6 @@ body {
     font-family: 'Plus Jakarta Sans';
 }
 
-h2 {
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #4a4949;
-}
-
 /* NAVIGATION BAR & FOOTER */
 .nav, .footer {
     align-items: center;
@@ -107,7 +101,7 @@ h2 {
     padding-left: 16rem;
     width: 400px;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     text-align: justify;
 }
@@ -323,41 +317,52 @@ img {
     padding: 0;
 }
 
+.inline-button-container {
+    padding: 1rem 16rem;
+}
+
 /* INLINE BUTTONS */
 .inline-buttons {
-    padding-left: 16rem;
-    padding-right: 16rem;
     display: flex;
-}
-
-.inline-button {
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    width: 25%;
-    height: 25%;
-    background-color: red;
-    margin-right: 5%;
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    
-    border-radius: 5%;
-}
-
-.inline-button span {
-    text-align: right;
-}
-
-.inline-button span:last-child {
-    font-size: 1.1rem;
-}
-
-.emoji {
-    font-size: 4rem !important;
-    padding: 0.2rem !important;
+    padding-bottom: 0.5rem;
 }
 
 h2 {
-    padding-left: 16rem;
+    text-transform: uppercase;
+}
+
+.inline-button-click {
+    width: 30%;
+    height: 5em;
+    background-color: #b2dfdb;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+
+    border-radius: 1rem;
+    transition: 0.4s;
+}
+
+.inline-button-click:hover {
+    background-color: olive;
+}
+
+.inline-button {
+    display: flex;
+    align-items: center;
+}
+
+.inline-button-label {
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    text-align: center;
+    width: 100%;
+}
+
+.emoji {
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
 }
